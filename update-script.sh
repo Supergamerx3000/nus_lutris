@@ -3,7 +3,7 @@ if zenity --question --ellipsize --title="Update Nitrox" \
     --text="Do you wish to update nitrox?\nThis may overwrite some seting in the Nitrox Launcher\n(such as Subnautica game folder)"
 then
     {
-        wget -O nitrox.zip https://on.rux.gg/z7kaG
+        wget -O nitrox.zip https://on.rux.gg/6eRNs
         echo 50
         unzip -o -q nitrox.zip -d "drive_c/Program Files/Nitrox/"
         echo 100
